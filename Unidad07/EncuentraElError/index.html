@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo de LOG en Javascript</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript">
+      function saludar() {
+        alert("Hola, soy " + this.nombre);
+      }
+      function ejemploObjetos() {
+        var unObjeto = new Array();
+        unObjeto.saludar();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="cabecera">
+      <h2>Ejemplo con Log</h2>
+      <h3>con JavaScript</h3>
+    </div>
+    <div style="color: blue" id="pulsador" onclick="ejemploObjetos()">
+      Probar
+    </div>
+  </body>
+</html>
